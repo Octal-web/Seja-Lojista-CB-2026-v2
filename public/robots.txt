@@ -1,0 +1,85 @@
+# robots.txt — casabrasileiraplanejados.com.br
+# Atualizado: 2026
+
+# ===== Motores de busca tradicionais =====
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ===== Crawlers de IA — permitir para aparecer nas respostas =====
+# ChatGPT / OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Google Gemini / AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Claude / Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl (base usada por diversas IAs)
+User-agent: CCBot
+Allow: /
+
+# ===== Scrapers agressivos — bloquear =====
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# ===== Áreas internas =====
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /storage/
+Disallow: /api/
+Disallow: /horizon/
+Disallow: /telescope/
+Disallow: /_debugbar/
+Disallow: /sejalojista26/lojas
+
+# ===== Sitemaps =====
+Sitemap: https://casabrasileiraplanejados.com.br/sitemap.xml
