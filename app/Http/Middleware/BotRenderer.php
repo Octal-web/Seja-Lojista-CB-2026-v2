@@ -8,7 +8,7 @@
 //
 // Como funciona:
 //   1. Verifica o User-Agent da requisição
-//   2. Se for crawler -> retorna a view blade sejalojista26'-bot.blade.php
+//   2. Se for crawler -> retorna a view blade sejalojista-bot.blade.php
 //      com o HTML completo da página já renderizado
 //   3. Se for usuário normal -> deixa passar para o Inertia normalmente
 
@@ -76,8 +76,14 @@ class BotRenderer
             return $next($request);
         }
 
+        // Requisições XHR do Inertia (ex.: redirect após envio de formulário)
+        // sempre seguem o fluxo normal, mesmo que o User-Agent pareça bot
+        if ($request->header('X-Inertia')) {
+            return $next($request);
+        }
+
         // É crawler na página certa -> retorna HTML estático
-        return response()->view('sejalojista26-bot', [
+        return response()->view('sejalojista-bot', [
             'title'       => 'Seja Lojista | Casa Brasileira Móveis Planejados',
             'description' => 'Faça parte da rede de lojas autorizadas Casa Brasileira. Sem royalties, sem taxas mensais. Suporte completo da marca pertencente ao Grupo Unicasa, listado na B3.',
         ]);
