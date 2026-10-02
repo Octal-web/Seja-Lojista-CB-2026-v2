@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form .select__input:focus,
+form .select__input:focus {
+	@apply ring-0;
+}
+
+
+.rdstation-popup-position-bottom_right {
+    @apply hidden;
+}

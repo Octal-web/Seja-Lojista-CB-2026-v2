@@ -1,0 +1,205 @@
+{
+  "_DefaultLayout-BudHijks.js": {
+    "file": "assets/DefaultLayout-BudHijks.js",
+    "name": "DefaultLayout",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "assets": [
+      "assets/logo-alt-DNicUFSU.png",
+      "assets/logo-main-DpDYuFR5.png",
+      "assets/octalweb-logo-CRy3Ke0p.png",
+      "assets/favicon-TXzTfgqB.ico"
+    ]
+  },
+  "_FormSelect-CcrrBdbZ.js": {
+    "file": "assets/FormSelect-CcrrBdbZ.js",
+    "name": "FormSelect",
+    "imports": [
+      "resources/js/app.jsx",
+      "_Text-CF0n5ABy.js"
+    ]
+  },
+  "_PolicyContent-XTS63dY6.js": {
+    "file": "assets/PolicyContent-XTS63dY6.js",
+    "name": "PolicyContent",
+    "imports": [
+      "resources/js/app.jsx",
+      "_DefaultLayout-BudHijks.js"
+    ]
+  },
+  "_Text-CF0n5ABy.js": {
+    "file": "assets/Text-CF0n5ABy.js",
+    "name": "Text",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_index-xgxdCp6f.js": {
+    "file": "assets/index-xgxdCp6f.js",
+    "name": "index"
+  },
+  "resources/js/Pages/Erro.jsx": {
+    "file": "assets/Erro-Cvh17gx-.js",
+    "name": "Erro",
+    "src": "resources/js/Pages/Erro.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Home.jsx": {
+    "file": "assets/Home-CUsfG2M6.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_DefaultLayout-BudHijks.js",
+      "_Text-CF0n5ABy.js",
+      "_index-xgxdCp6f.js",
+      "_FormSelect-CcrrBdbZ.js"
+    ],
+    "assets": [
+      "assets/circle-check-D9ZDlSI3.png",
+      "assets/circle-xmark-DKPOii6u.png",
+      "assets/main-bg-mobile-C_YMmFL3.jpg",
+      "assets/main-bg-DiR9-lpE.jpg",
+      "assets/store-1-JgPODShN.jpg",
+      "assets/store-2-JIG0433M.jpg",
+      "assets/store-3-C-eXGDq_.jpg",
+      "assets/cb-lojista-1-desktop-BUkhw3Sf.mp4",
+      "assets/cb-lojista-1-mobile-DPFKlb0B.mp4",
+      "assets/poster-desktop-DA92wjxc.jpg",
+      "assets/poster-mobile-yy7TiWO3.jpg",
+      "assets/unicasa-fabrica-CjjkLjYj.jpg"
+    ]
+  },
+  "resources/js/Pages/LojistasConcluido.jsx": {
+    "file": "assets/LojistasConcluido-BBeY8IEf.js",
+    "name": "LojistasConcluido",
+    "src": "resources/js/Pages/LojistasConcluido.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_DefaultLayout-BudHijks.js",
+      "_Text-CF0n5ABy.js",
+      "_index-xgxdCp6f.js"
+    ]
+  },
+  "resources/js/Pages/LojistasSegundaEtapa.jsx": {
+    "file": "assets/LojistasSegundaEtapa-CLa33Q2k.js",
+    "name": "LojistasSegundaEtapa",
+    "src": "resources/js/Pages/LojistasSegundaEtapa.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_DefaultLayout-BudHijks.js",
+      "_Text-CF0n5ABy.js",
+      "_FormSelect-CcrrBdbZ.js"
+    ]
+  },
+  "resources/js/Pages/PoliticaCookies.jsx": {
+    "file": "assets/PoliticaCookies-BkY4VlH8.js",
+    "name": "PoliticaCookies",
+    "src": "resources/js/Pages/PoliticaCookies.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_DefaultLayout-BudHijks.js",
+      "_PolicyContent-XTS63dY6.js"
+    ]
+  },
+  "resources/js/Pages/PoliticaPrivacidade.jsx": {
+    "file": "assets/PoliticaPrivacidade-DuSame3l.js",
+    "name": "PoliticaPrivacidade",
+    "src": "resources/js/Pages/PoliticaPrivacidade.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_DefaultLayout-BudHijks.js",
+      "_PolicyContent-XTS63dY6.js"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-BHgIrVt1.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Erro.jsx",
+      "resources/js/Pages/Home.jsx",
+      "resources/js/Pages/LojistasConcluido.jsx",
+      "resources/js/Pages/LojistasSegundaEtapa.jsx",
+      "resources/js/Pages/PoliticaCookies.jsx",
+      "resources/js/Pages/PoliticaPrivacidade.jsx"
+    ],
+    "css": [
+      "assets/app-CqWWtQBU.css"
+    ]
+  },
+  "resources/js/imgs/content/display/circle-check.png": {
+    "file": "assets/circle-check-D9ZDlSI3.png",
+    "src": "resources/js/imgs/content/display/circle-check.png"
+  },
+  "resources/js/imgs/content/display/circle-xmark.png": {
+    "file": "assets/circle-xmark-DKPOii6u.png",
+    "src": "resources/js/imgs/content/display/circle-xmark.png"
+  },
+  "resources/js/imgs/content/display/main-bg-mobile.jpg": {
+    "file": "assets/main-bg-mobile-C_YMmFL3.jpg",
+    "src": "resources/js/imgs/content/display/main-bg-mobile.jpg"
+  },
+  "resources/js/imgs/content/display/main-bg.jpg": {
+    "file": "assets/main-bg-DiR9-lpE.jpg",
+    "src": "resources/js/imgs/content/display/main-bg.jpg"
+  },
+  "resources/js/imgs/content/display/poster-desktop.jpg": {
+    "file": "assets/poster-desktop-DA92wjxc.jpg",
+    "src": "resources/js/imgs/content/display/poster-desktop.jpg"
+  },
+  "resources/js/imgs/content/display/poster-mobile.jpg": {
+    "file": "assets/poster-mobile-yy7TiWO3.jpg",
+    "src": "resources/js/imgs/content/display/poster-mobile.jpg"
+  },
+  "resources/js/imgs/content/display/store-1.jpg": {
+    "file": "assets/store-1-JgPODShN.jpg",
+    "src": "resources/js/imgs/content/display/store-1.jpg"
+  },
+  "resources/js/imgs/content/display/store-2.jpg": {
+    "file": "assets/store-2-JIG0433M.jpg",
+    "src": "resources/js/imgs/content/display/store-2.jpg"
+  },
+  "resources/js/imgs/content/display/store-3.jpg": {
+    "file": "assets/store-3-C-eXGDq_.jpg",
+    "src": "resources/js/imgs/content/display/store-3.jpg"
+  },
+  "resources/js/imgs/content/display/unicasa-fabrica.jpg": {
+    "file": "assets/unicasa-fabrica-CjjkLjYj.jpg",
+    "src": "resources/js/imgs/content/display/unicasa-fabrica.jpg"
+  },
+  "resources/js/imgs/favicon.ico": {
+    "file": "assets/favicon-TXzTfgqB.ico",
+    "src": "resources/js/imgs/favicon.ico"
+  },
+  "resources/js/imgs/site/img/logo-alt.png": {
+    "file": "assets/logo-alt-DNicUFSU.png",
+    "src": "resources/js/imgs/site/img/logo-alt.png"
+  },
+  "resources/js/imgs/site/img/logo-main.png": {
+    "file": "assets/logo-main-DpDYuFR5.png",
+    "src": "resources/js/imgs/site/img/logo-main.png"
+  },
+  "resources/js/imgs/site/img/octalweb-logo.png": {
+    "file": "assets/octalweb-logo-CRy3Ke0p.png",
+    "src": "resources/js/imgs/site/img/octalweb-logo.png"
+  },
+  "resources/js/imgs/videos/cb-lojista-1-desktop.mp4": {
+    "file": "assets/cb-lojista-1-desktop-BUkhw3Sf.mp4",
+    "src": "resources/js/imgs/videos/cb-lojista-1-desktop.mp4"
+  },
+  "resources/js/imgs/videos/cb-lojista-1-mobile.mp4": {
+    "file": "assets/cb-lojista-1-mobile-DPFKlb0B.mp4",
+    "src": "resources/js/imgs/videos/cb-lojista-1-mobile.mp4"
+  }
+}
