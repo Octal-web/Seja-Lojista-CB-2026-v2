@@ -1,6 +1,6 @@
 {
-  "_DefaultLayout-9mLzQ3PD.js": {
-    "file": "assets/DefaultLayout-9mLzQ3PD.js",
+  "_DefaultLayout-BZo4edUo.js": {
+    "file": "assets/DefaultLayout-BZo4edUo.js",
     "name": "DefaultLayout",
     "imports": [
       "resources/js/app.jsx"
@@ -12,24 +12,24 @@
       "assets/favicon-TXzTfgqB.ico"
     ]
   },
-  "_FormSelect-DgZTf5F8.js": {
-    "file": "assets/FormSelect-DgZTf5F8.js",
+  "_FormSelect-B6PARcC7.js": {
+    "file": "assets/FormSelect-B6PARcC7.js",
     "name": "FormSelect",
     "imports": [
       "resources/js/app.jsx",
-      "_Text-h7KJra4U.js"
+      "_Text-DisNZDk4.js"
     ]
   },
-  "_PolicyContent-CQ6lE4uS.js": {
-    "file": "assets/PolicyContent-CQ6lE4uS.js",
+  "_PolicyContent-D_GcqXml.js": {
+    "file": "assets/PolicyContent-D_GcqXml.js",
     "name": "PolicyContent",
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-9mLzQ3PD.js"
+      "_DefaultLayout-BZo4edUo.js"
     ]
   },
-  "_Text-h7KJra4U.js": {
-    "file": "assets/Text-h7KJra4U.js",
+  "_Text-DisNZDk4.js": {
+    "file": "assets/Text-DisNZDk4.js",
     "name": "Text",
     "imports": [
       "resources/js/app.jsx"
@@ -40,7 +40,7 @@
     "name": "index"
   },
   "resources/js/Pages/Erro.jsx": {
-    "file": "assets/Erro-BEBvE0gI.js",
+    "file": "assets/Erro-BFtU_JfB.js",
     "name": "Erro",
     "src": "resources/js/Pages/Erro.jsx",
     "isDynamicEntry": true,
@@ -49,16 +49,16 @@
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-ClUp5R_K.js",
+    "file": "assets/Home-DQ9-cJux.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-9mLzQ3PD.js",
-      "_Text-h7KJra4U.js",
+      "_DefaultLayout-BZo4edUo.js",
+      "_Text-DisNZDk4.js",
       "_index-xgxdCp6f.js",
-      "_FormSelect-DgZTf5F8.js"
+      "_FormSelect-B6PARcC7.js"
     ],
     "assets": [
       "assets/circle-check-D9ZDlSI3.png",
@@ -76,53 +76,53 @@
     ]
   },
   "resources/js/Pages/LojistasConcluido.jsx": {
-    "file": "assets/LojistasConcluido-Fbx0Gae0.js",
+    "file": "assets/LojistasConcluido-_fHBQLjS.js",
     "name": "LojistasConcluido",
     "src": "resources/js/Pages/LojistasConcluido.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-9mLzQ3PD.js",
-      "_Text-h7KJra4U.js",
+      "_DefaultLayout-BZo4edUo.js",
+      "_Text-DisNZDk4.js",
       "_index-xgxdCp6f.js"
     ]
   },
   "resources/js/Pages/LojistasSegundaEtapa.jsx": {
-    "file": "assets/LojistasSegundaEtapa-E78O1YMC.js",
+    "file": "assets/LojistasSegundaEtapa-B6MDm73v.js",
     "name": "LojistasSegundaEtapa",
     "src": "resources/js/Pages/LojistasSegundaEtapa.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-9mLzQ3PD.js",
-      "_Text-h7KJra4U.js",
-      "_FormSelect-DgZTf5F8.js"
+      "_DefaultLayout-BZo4edUo.js",
+      "_Text-DisNZDk4.js",
+      "_FormSelect-B6PARcC7.js"
     ]
   },
   "resources/js/Pages/PoliticaCookies.jsx": {
-    "file": "assets/PoliticaCookies-BymMiRK9.js",
+    "file": "assets/PoliticaCookies-C2RcCOFw.js",
     "name": "PoliticaCookies",
     "src": "resources/js/Pages/PoliticaCookies.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-9mLzQ3PD.js",
-      "_PolicyContent-CQ6lE4uS.js"
+      "_DefaultLayout-BZo4edUo.js",
+      "_PolicyContent-D_GcqXml.js"
     ]
   },
   "resources/js/Pages/PoliticaPrivacidade.jsx": {
-    "file": "assets/PoliticaPrivacidade-B8MAeT4s.js",
+    "file": "assets/PoliticaPrivacidade-CKRAaSQd.js",
     "name": "PoliticaPrivacidade",
     "src": "resources/js/Pages/PoliticaPrivacidade.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-9mLzQ3PD.js",
-      "_PolicyContent-CQ6lE4uS.js"
+      "_DefaultLayout-BZo4edUo.js",
+      "_PolicyContent-D_GcqXml.js"
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-DZJqU98q.js",
+    "file": "assets/app-DoxpetPE.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
