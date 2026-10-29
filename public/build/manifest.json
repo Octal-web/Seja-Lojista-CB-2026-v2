@@ -1,6 +1,6 @@
 {
-  "_DefaultLayout-BZo4edUo.js": {
-    "file": "assets/DefaultLayout-BZo4edUo.js",
+  "_DefaultLayout-BLZbKXHg.js": {
+    "file": "assets/DefaultLayout-BLZbKXHg.js",
     "name": "DefaultLayout",
     "imports": [
       "resources/js/app.jsx"
@@ -12,24 +12,24 @@
       "assets/favicon-TXzTfgqB.ico"
     ]
   },
-  "_FormSelect-B6PARcC7.js": {
-    "file": "assets/FormSelect-B6PARcC7.js",
+  "_FormSelect-RZelWgLh.js": {
+    "file": "assets/FormSelect-RZelWgLh.js",
     "name": "FormSelect",
     "imports": [
       "resources/js/app.jsx",
-      "_Text-DisNZDk4.js"
+      "_Text-DD1UGwKo.js"
     ]
   },
-  "_PolicyContent-D_GcqXml.js": {
-    "file": "assets/PolicyContent-D_GcqXml.js",
+  "_PolicyContent-l-8LRSXE.js": {
+    "file": "assets/PolicyContent-l-8LRSXE.js",
     "name": "PolicyContent",
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-BZo4edUo.js"
+      "_DefaultLayout-BLZbKXHg.js"
     ]
   },
-  "_Text-DisNZDk4.js": {
-    "file": "assets/Text-DisNZDk4.js",
+  "_Text-DD1UGwKo.js": {
+    "file": "assets/Text-DD1UGwKo.js",
     "name": "Text",
     "imports": [
       "resources/js/app.jsx"
@@ -40,7 +40,7 @@
     "name": "index"
   },
   "resources/js/Pages/Erro.jsx": {
-    "file": "assets/Erro-BFtU_JfB.js",
+    "file": "assets/Erro-B-7zzJ6s.js",
     "name": "Erro",
     "src": "resources/js/Pages/Erro.jsx",
     "isDynamicEntry": true,
@@ -49,16 +49,16 @@
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-DQ9-cJux.js",
+    "file": "assets/Home-wGecQVs6.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-BZo4edUo.js",
-      "_Text-DisNZDk4.js",
+      "_DefaultLayout-BLZbKXHg.js",
+      "_Text-DD1UGwKo.js",
       "_index-xgxdCp6f.js",
-      "_FormSelect-B6PARcC7.js"
+      "_FormSelect-RZelWgLh.js"
     ],
     "assets": [
       "assets/circle-check-D9ZDlSI3.png",
@@ -76,53 +76,53 @@
     ]
   },
   "resources/js/Pages/LojistasConcluido.jsx": {
-    "file": "assets/LojistasConcluido-_fHBQLjS.js",
+    "file": "assets/LojistasConcluido-lcHie9QQ.js",
     "name": "LojistasConcluido",
     "src": "resources/js/Pages/LojistasConcluido.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-BZo4edUo.js",
-      "_Text-DisNZDk4.js",
+      "_DefaultLayout-BLZbKXHg.js",
+      "_Text-DD1UGwKo.js",
       "_index-xgxdCp6f.js"
     ]
   },
   "resources/js/Pages/LojistasSegundaEtapa.jsx": {
-    "file": "assets/LojistasSegundaEtapa-B6MDm73v.js",
+    "file": "assets/LojistasSegundaEtapa-EaJqkm5P.js",
     "name": "LojistasSegundaEtapa",
     "src": "resources/js/Pages/LojistasSegundaEtapa.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-BZo4edUo.js",
-      "_Text-DisNZDk4.js",
-      "_FormSelect-B6PARcC7.js"
+      "_DefaultLayout-BLZbKXHg.js",
+      "_Text-DD1UGwKo.js",
+      "_FormSelect-RZelWgLh.js"
     ]
   },
   "resources/js/Pages/PoliticaCookies.jsx": {
-    "file": "assets/PoliticaCookies-C2RcCOFw.js",
+    "file": "assets/PoliticaCookies-C46GuOPB.js",
     "name": "PoliticaCookies",
     "src": "resources/js/Pages/PoliticaCookies.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-BZo4edUo.js",
-      "_PolicyContent-D_GcqXml.js"
+      "_DefaultLayout-BLZbKXHg.js",
+      "_PolicyContent-l-8LRSXE.js"
     ]
   },
   "resources/js/Pages/PoliticaPrivacidade.jsx": {
-    "file": "assets/PoliticaPrivacidade-CKRAaSQd.js",
+    "file": "assets/PoliticaPrivacidade-DXYecy-v.js",
     "name": "PoliticaPrivacidade",
     "src": "resources/js/Pages/PoliticaPrivacidade.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-BZo4edUo.js",
-      "_PolicyContent-D_GcqXml.js"
+      "_DefaultLayout-BLZbKXHg.js",
+      "_PolicyContent-l-8LRSXE.js"
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-DoxpetPE.js",
+    "file": "assets/app-D-ib8ylj.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
@@ -135,7 +135,7 @@
       "resources/js/Pages/PoliticaPrivacidade.jsx"
     ],
     "css": [
-      "assets/app-CqWWtQBU.css"
+      "assets/app-Cl3sFaes.css"
     ]
   },
   "resources/js/imgs/content/display/circle-check.png": {

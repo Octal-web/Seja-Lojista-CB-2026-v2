@@ -48,6 +48,7 @@ export const StoreFirstForm = () => {
         telefone: "",
         telefone_confirmation: "",
         email: "",
+        cep: "",
         politica: false,
         expectativa_investimento: "",
 
@@ -92,6 +93,7 @@ export const StoreFirstForm = () => {
         "nome",
         "telefone",
         "email",
+        "cep",
         "expectativa_investimento",
         "politica",
     ]);
@@ -178,6 +180,8 @@ export const StoreFirstForm = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
 
+        console.log(data)
+
         post(route("Lojistas.enviar"), {
             preserveScroll: (page) => Object.keys(page.props.errors ?? {}).length > 0,
 
@@ -196,6 +200,7 @@ export const StoreFirstForm = () => {
                     "telefone",
                     "telefone_confirmation",
                     "email",
+                    "cep",
                     "politica",
                     "expectativa_investimento",
                 );
@@ -278,7 +283,7 @@ export const StoreFirstForm = () => {
                             id="form_CB_Sejalojista26'_topo"
                         >
                             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-                                <div>
+                                <div className="sm:col-span-2">
                                     <label
                                         htmlFor="nome-topo"
                                         className="mb-1 md:mb-2 block text-xs md:text-sm font-normal text-primary"
@@ -337,6 +342,39 @@ export const StoreFirstForm = () => {
 
                                     <div id="email-error-topo">
                                         <ErrorMessage field="email" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <label
+                                        htmlFor="cep-topo"
+                                        className="mb-2 block text-xs md:text-sm font-normal text-primary"
+                                    >
+                                        CEP*
+                                    </label>
+
+                                    <InputMask
+                                        id="cep-topo"
+                                        type="text"
+                                        name="cep"
+                                        mask="_____-___"
+                                        replacement={{
+                                            _: /\d/,
+                                        }}
+                                        value={data.cep}
+                                        onChange={handleChange}
+                                        placeholder="Seu CEP"
+                                        inputMode="numeric"
+                                        autoComplete="postal-code"
+                                        aria-required="true"
+                                        aria-invalid={Boolean(errors.cep)}
+                                        aria-describedby={
+                                            errors.cep ? "cep-error-topo" : undefined
+                                        }
+                                        className={inputClassName}
+                                    />
+
+                                    <div id="cep-error-topo">
+                                        <ErrorMessage field="cep" />
                                     </div>
                                 </div>
 
